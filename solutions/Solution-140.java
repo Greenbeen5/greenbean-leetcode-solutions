@@ -1,3 +1,10 @@
+/*
+    Follow the solution of Problem 139 to judge if s can be divided,
+    then use backtrack to perform wordBreak. Trie and memo can also
+    be used to solve this problem. When revising, consider reading 
+    the solution page at: 
+    https://leetcode-cn.com/problems/word-break-ii/solution/
+*/
 class Solution {
     List<String> ans = new ArrayList<>();
     public List<String> wordBreak(String s, List<String> wordDict) {
